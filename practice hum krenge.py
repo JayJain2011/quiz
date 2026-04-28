@@ -263,20 +263,20 @@
 #         return 'not a leap year.'
 # year=2025
 # print(leap_year(year))
-class laptop():
-    def __init__(self,brand,price):
-        self.brand=brand
-        self.price=price
-    def apply_discount(self,percent):
-        discount=self.price*percent/100
-        self.price-=discount
-        print('discount given:',discount)
-    def display(self):
-        print('brand:',self.brand)
-        print('final price:',self.price)
-l=laptop("Lenevo",60000)
-l.apply_discount(50)
-l.display()
+# class laptop():
+#     def __init__(self,brand,price):
+#         self.brand=brand
+#         self.price=price
+#     def apply_discount(self,percent):
+#         discount=self.price*percent/100
+#         self.price-=discount
+#         print('discount given:',discount)
+#     def display(self):
+#         print('brand:',self.brand)
+#         print('final price:',self.price)
+# l=laptop("Lenevo",60000)
+# l.apply_discount(50)
+# l.display()
 
     
 
