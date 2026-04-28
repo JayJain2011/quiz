@@ -217,4 +217,67 @@
 #     print("enter valid age")
 
 #-----------------------Practice-------------------------
+# salary=50000
+# credit_score=650
+# if salary>=30000 and credit_score>=700:
+#     print("Loan approved")
+# elif salary>=25000 and credit_score>=650: 
+#     print("loan approved with conditions.")
+# else:
+#     print("Loan rejected")
+#-----
+# num1=20
+# num2=27
+# op="-"
+# if op=="+":
+#     result=num1+num2
+#     print('result of sum:',result)
+# elif op=="-":
+#     result=num1-num2
+#     print("result of difference:",result)
+# elif op=="/":
+#     result=num1/num2
+#     if result%2==0:
+#         print('number is even')
+#     else:
+#         print('number is odd')
+# else:
+#     print('invalid operator')
+#--------
+# def Calculate_grade(marks):
+#     if marks>=80:
+#         return'Grade A'
+#     elif marks>=70:
+#         return'Grade B'
+#     elif marks>=50:
+#         return 'Grade C'
+#     else:
+#         return'Fail'
+# marks=60
+# print('marks:',marks)
+# print("Grade:",Calculate_grade(marks))
+# def leap_year(year):
+#     if (year%4==0 and year%100!=0) or (year%400==0):
+#         return 'leap year'
+#     else:
+#         return 'not a leap year.'
+# year=2025
+# print(leap_year(year))
+class laptop():
+    def __init__(self,brand,price):
+        self.brand=brand
+        self.price=price
+    def apply_discount(self,percent):
+        discount=self.price*percent/100
+        self.price-=discount
+        print('discount given:',discount)
+    def display(self):
+        print('brand:',self.brand)
+        print('final price:',self.price)
+l=laptop("Lenevo",60000)
+l.apply_discount(50)
+l.display()
+
+    
+
 
