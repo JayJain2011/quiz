@@ -278,6 +278,4 @@
 # l.apply_discount(50)
 # l.display()
 
-    
-
 
